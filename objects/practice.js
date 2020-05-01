@@ -18,8 +18,8 @@ var arr = [10,20,30];
 */
 
 //Code Here
-
-
+var first = () => arr[0];
+console.log(first())
 
 ////////// PROBLEM 2 //////////
 
@@ -33,7 +33,8 @@ var arr = [40,50,60];
 */
 
 //Code Here
-
+var last = () => arr[2];
+console.log(last())
 
 
 ////////// PROBLEM 3 //////////
@@ -63,7 +64,9 @@ var letters = ['A', 'B', 'C', 'D', 'E'];
 */
 
 //Code Here
-
+function reversedLooper () {
+  for(let i = 0; )
+}
 
 
 ////////// PROBLEM 5 //////////
