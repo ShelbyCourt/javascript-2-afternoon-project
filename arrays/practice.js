@@ -16,10 +16,10 @@
 
 //Code here
 let me = {
-name: 'Shelby',
-age: 78,
-}
-//alert(me.name)
+  name: 'Shelby',
+  age: 78
+};
+alert(me.name)
 ////////// PROBLEM 2 //////////
 
 /*
@@ -43,8 +43,8 @@ let favoriteThings = {
 */
 
 //Code here
-favoriteThings.car = 'Mini Cooper'
-favoriteThings.brand = 'Vans'
+favoriteThings.car = 'Mini Cooper';
+favoriteThings.brand = 'Vans';
 
 /*
   Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
@@ -52,7 +52,7 @@ favoriteThings.brand = 'Vans'
 */
 
 //Code here
-favoriteThings.food = 'Chicken Nuggets'
+favoriteThings.food = 'Chicken Nuggets';
 favoriteThings.book = 'Harry Potter'
 
 ////////// PROBLEM 3 //////////
@@ -66,12 +66,10 @@ favoriteThings.book = 'Harry Potter'
 */
 
 //Code here
-let backPack = {
-  item: 'firstPocket'
-}
-
-backPack.firstPocket = 'chapstick'
-backPack.color = 'red'
+var backPack = {};
+var item = 'firstPocket';
+backPack.firstPocket = 'chapstick';
+backPack.color = 'black';
 
 /*
   After you do the above, alert your entire backPack object.
@@ -87,6 +85,7 @@ Instead, console.log your whole backPack object and then check out the console.
 
 //Code here
 console.log(backPack)
+
 ////////// PROBLEM 4 //////////
 
 // Do not edit the code below.
@@ -119,7 +118,6 @@ user2.email = 'bryan.smith@devmounta.in'
   Create an empty object called methodCollection.
 */
 //Code Here
-var methodCollection = []
 
 /*
   Now add two methods (functions that are properties on objects) to your methodCollection object.
@@ -148,13 +146,7 @@ logHello()
 
 
 //Code Here
-function makePerson(name, birthday, ssn) = {
-name:
-birthday:
-ssn:
 
-
-}
 
 ////////// PROBLEM 7 //////////
 
@@ -164,8 +156,3 @@ ssn:
 */
 
 //Code Here
-function makeCard() = {
-
-
-  
-}
