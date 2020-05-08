@@ -98,7 +98,6 @@ function contains (array, name, cb){
   }
 }
 
-
 // Do not edit the code below.
 contains(names, 'Colt', function(result){
   if(result === true){
@@ -109,8 +108,6 @@ contains(names, 'Colt', function(result){
 });
 // Do not edit the code above.
 
-
-
 ////////// PROBLEM 5 //////////
 
 /*
@@ -119,8 +116,20 @@ contains(names, 'Colt', function(result){
 */
 
 //Code Here
-
-
+function uniq(arr, cb) {
+  for (let i = 0 ; i < arr.length ; ++i) {
+      console.log(`arr[${i}] = ${arr[i]}`);
+      for (let j = arr.length - 1 ; j > i ; --j) {
+          console.log(`comparing with: arr[${j}] = ${arr[j]}`);
+          if (arr[i] === arr[j]) {
+              console.log("found duplicate! removing it");
+              arr.splice(j, 1);
+          }
+      }
+  } 
+  cb(arr);
+  return arr;
+}
 
 
 // Do not edit the code below.
