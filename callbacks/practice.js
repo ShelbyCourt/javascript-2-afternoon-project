@@ -168,10 +168,14 @@ each(names, function(item, indice){
 
 // Code here
 function getUserById(users, id, callback){
-    if (users.id === users.id) {
-    cb(users.id)
-  }
+    for (var i = 0; i < users.length; i++) {
+        if (users[i][id] === value) {
+          return users[i], (i);
+        }
+    }
+    return null;
 }
+
 
 
 // Do not edit the code below.
