@@ -149,7 +149,7 @@ uniq(names, function(uniqArr){
 
  function each(arr, cb){
   for(let i = 0; i < arr.length; i++){
-    cb(arr[i])
+    cb(arr[i], i);
  }
 }
 
@@ -157,6 +157,7 @@ uniq(names, function(uniqArr){
 each(names, function(item, indice){
   console.log('The item in the ' + indice + ' position is ' + item)
 });
+
 // Do not edit the code above.
 
 ////////// PROBLEM 7 //////////
@@ -169,11 +170,10 @@ each(names, function(item, indice){
 // Code here
 function getUserById(users, id, callback){
     for (var i = 0; i < users.length; i++) {
-        if (users[i][id] === value) {
-          return users[i], (i);
-        }
-    }
-    return null;
+        if (users[i]['id'] === id) {
+          callback(users[i]);
+        } 
+    } 
 }
 
 
